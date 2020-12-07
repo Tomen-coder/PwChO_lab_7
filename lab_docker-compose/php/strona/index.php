@@ -13,9 +13,8 @@ die();
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Nie dziala :(</title>
 </head>
 <body>
-   Nie dziala proxy :(
+   Nic nie działa, przerabiaj!
 </body>
 </html>
