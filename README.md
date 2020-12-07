@@ -33,3 +33,4 @@ I ponowne uruchomienie:
 docker-compose build --no-cache
 docker-compose up
 ```
+![resultat](/images/git1.png)
