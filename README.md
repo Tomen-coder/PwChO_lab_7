@@ -33,4 +33,6 @@ I ponowne uruchomienie:
 docker-compose build --no-cache
 docker-compose up
 ```
-![resultat](/images/git1.png)
+### Uwagi i wnioski
+>Wynik po przejściu w przegładarce pod adres localhost:8090
+![rezultat](/images/git1.png)
