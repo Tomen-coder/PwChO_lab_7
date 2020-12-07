@@ -17,7 +17,7 @@ W pliku httpd.conf dodano załadowanie bibliotek i metod potrzebnych dla poprawn
 Kontener jest podłączony do do sieci frontend i backend, z proxy PHP łączy się za pomocą aliasu.<br>
 Dodatkowe pliki konfiguracyjne: httpd.conf oraz httpd-vhosts.conf <br>
 ## Jak uruchomić ?
-Należy pobrać cały katalog z projektem.
+Należy pobrać cały katalog z projektem.<br> 
 Pierwsze uruchomienie wygłada następująco:
 ```
 docker-compose build --no-cache
