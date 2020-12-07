@@ -1,7 +1,7 @@
 ## Oleksandr Tomenchuk lab7 docker-compose
->Port używany w projekcie to **8090** ponieważ port 6666 jest portem **zastrzeżonym przez system.**<br>
 >Projekt składa się z trzech plików Dockerfile, jednego Docker-compose i<br> 
 >dodatkowych plików niezbędnych do poprawnej pracy każdej usługi cząstkowej.<br> 
+>Port używany w projekcie to **8090** ponieważ port 6666 jest portem **zastrzeżonym przez system.**<br>
 ### PHP
 Osobny pool podłączony do portu 9009 dla aplikacji webowej. Kontekst strony umieszczony został w <br>
 katalogu /srv/strona. Aplikacja korzysta z aliasu dla kontenera z bazą danych.<br>
@@ -16,7 +16,8 @@ plik ten został zmieniony. Dyrektywa ProxyPassMatch zapełnia prawidłowe proxo
 W pliku httpd.conf dodano załadowanie bibliotek i metod potrzebnych dla poprawnego działania proxy. <br>
 Kontener jest podłączony do do sieci frontend i backend, z proxy PHP łączy się za pomocą aliasu.<br>
 Dodatkowe pliki konfiguracyjne: httpd.conf oraz httpd-vhosts.conf <br>
-### Jak uruchomić ?
+## Jak uruchomić ?
+Należy pobrać cały katalog z projektem.
 Pierwsze uruchomienie wygłada następująco:
 ```
 docker-compose build --no-cache
