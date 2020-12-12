@@ -2,6 +2,9 @@
 >Projekt składa się z trzech plików Dockerfile, jednego Docker-compose i<br> 
 >dodatkowych plików niezbędnych do poprawnej pracy każdej usługi cząstkowej.<br> 
 >Port używany w projekcie to **8090** ponieważ port 6666 jest portem **zastrzeżonym przez system.**<br>
+### Update
+
+![rezultat](/images/git2.png)
 ### PHP
 Osobny pool podłączony do portu 9009 dla aplikacji webowej. Kontekst strony umieszczony został w <br>
 katalogu /srv/strona. Aplikacja korzysta z aliasu dla kontenera z bazą danych.<br>
