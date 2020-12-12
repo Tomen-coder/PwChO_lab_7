@@ -3,8 +3,12 @@
 >dodatkowych plików niezbędnych do poprawnej pracy każdej usługi cząstkowej.<br> 
 >Port używany w projekcie to **8090** ponieważ port 6666 jest portem **zastrzeżonym przez system.**<br>
 ### Update
-
-![rezultat](/images/git2.png)
+Reprezentacja graficzna pliku docker-compose. <br>
+![topology](/images/git2.png) <br>
+Użyte polecenia do utworżenia pliku:  <br>
+```
+docker run --rm -it --name dcv -v /home/student/lab_docker-compose:/input pmsipilot/docker-compose-viz render -m image --force docker-compose.yml --output-file=topology.png
+```
 ### PHP
 Osobny pool podłączony do portu 9009 dla aplikacji webowej. Kontekst strony umieszczony został w <br>
 katalogu /srv/strona. Aplikacja korzysta z aliasu dla kontenera z bazą danych.<br>
